@@ -11,6 +11,7 @@ const routes = express.Router()
 // ONGs
 routes.get('/ongs', OngController.index)
 routes.post('/ongs', OngController.create)
+routes.delete('/ongs/delete/:id', OngController.delete)
 
 // Incidents
 routes.get('/incidents', IncidentController.index)
