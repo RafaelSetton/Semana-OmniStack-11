@@ -9,3 +9,6 @@ expo init [nome_do_projeto]
 
 Visitar: https://reactnavigation.org/docs/getting-started
 
+// Testes
+
+Jest
